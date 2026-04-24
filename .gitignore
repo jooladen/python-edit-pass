@@ -1,0 +1,27 @@
+# 개인 데이터 (절대 커밋 금지)
+data/
+
+# 개발 도구 내부 상태 (퍼블릭 저장소에 불필요)
+.bkit/
+.claude/
+
+# PyInstaller 빌드 산출물
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# 환경변수
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
